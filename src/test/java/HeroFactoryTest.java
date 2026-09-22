@@ -21,8 +21,8 @@ public class HeroFactoryTest{
 		assertEquals(25, hero2.getDEX());
 		
 		HeroInterface hero3 = HeroFactory.createHero("ROBOT","MAGE");
-		assertEquals("ELF", hero3.getRaceName());
-		assertEquals("ARCHER", hero3.getJobName());
+		assertEquals("ROBOT", hero3.getRaceName());
+		assertEquals("MAGE", hero3.getJobName());
 		assertEquals(20, hero3.getSTR());
 		assertEquals(25, hero3.getINT());
 		assertEquals(20, hero3.getDEX());
