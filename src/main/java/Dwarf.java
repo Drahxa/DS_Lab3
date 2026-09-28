@@ -8,8 +8,11 @@ public class Dwarf extends Race {
 	public int getSTR() {
 		return 25;
 	}
+
 	
 	public String getRaceName() {
 		return "DWARF";
 	}
+	
+	
 }

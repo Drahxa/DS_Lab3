@@ -1,16 +1,16 @@
 
-public class Job {
+public abstract class Job {
 
-	public Job() {
+
 		
-	}
 	
-	public int attack(Race race, int val) {
-		return 0;
-	}
 	
-	public String getJobName() {
-		return "";
-	}
+	public abstract int attack(Race race, int val); 
+		
+	
+	
+	public abstract String getJobName();
+		
+	
 
 }

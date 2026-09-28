@@ -1,44 +1,46 @@
 
 public class Hero implements HeroInterface {
 
-	public Hero() {
+	Race race;
+	Job job;
+	public Hero(Race race, Job job) {
+		this.race = race;
+		this.job = job;
 		// TODO Auto-generated constructor stub
 	}
 
 	@Override
 	public int attack(int val) {
-		// TODO Auto-generated method stub
-		return 0;
+		return job.attack(race, val);
 	}
 
 	@Override
 	public int getSTR() {
-		// TODO Auto-generated method stub
-		return 0;
+		return race.getSTR();
 	}
 
 	@Override
 	public int getDEX() {
 		// TODO Auto-generated method stub
-		return 0;
+		return race.getDEX();
 	}
 
 	@Override
 	public int getINT() {
 		// TODO Auto-generated method stub
-		return 0;
+		return race.getINT();
 	}
 
 	@Override
 	public String getRaceName() {
 		// TODO Auto-generated method stub
-		return null;
+		return race.getRaceName();
 	}
 
 	@Override
 	public String getJobName() {
 		// TODO Auto-generated method stub
-		return null;
+		return job.getJobName();
 	}
 
 }
