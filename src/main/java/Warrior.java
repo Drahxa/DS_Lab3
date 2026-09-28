@@ -10,7 +10,7 @@ public class Warrior extends Job {
 	}
 	
 	public String getJobName() {
-		return "MAGE";
+		return "WARRIOR";
 	}
 
 }
